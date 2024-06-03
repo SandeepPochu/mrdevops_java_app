@@ -11,11 +11,10 @@ pipeline{
             }
         }
         stage('maven Integration test'){
-            steps{
-                script{
-                    mvnTest()
-                }
-            }
-        }
+            steps{
+                script{
+                    mvnTest()
+                }
+            }
     }
 }
