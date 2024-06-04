@@ -10,7 +10,7 @@ pipeline{
             )
             }
         }
-        stage('maven Integration test'){
+        stage('maven unit test'){
             steps{
                 script{
                     mvnTest()
